@@ -44,6 +44,7 @@ It's been much more stable, and convenient, to setup Bluetooth for a wireless, r
 5. Add the required config paramters to your config.py file. It should look something like this.
     ```python
     #JOYSTICK
+    JOYSTICK_MAX_THROTTLE = 1.0
     JOYSTICK_STEERING_SCALE = 1.0
     AUTO_RECORD_ON_THROTTLE = True
     ```
